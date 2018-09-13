@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+
+body {
+  margin: 0;
+  background-color: black;
+  background-image: url("dimanuve_bg.png");
+}
+
+.header {
+  width: 100%;
+  background-color: #0000ff;
+  height: auto;
+  font-size: 2em;
+}
+
+.header_text {
+  text-align: center;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.9em;
+  font-family: Lato;
+  font-weight: 900;
+}
+
+.logo_img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: -2em;
+}
+
+.cover_img > img {
+  width: 80%;
+  height: auto;
+  position: center;
+  margin-left: 10%;
+}
+
+.box_tracklist {
+  background-color: blue;
+  color: white;
+  font-family: Ubuntu Mono, sans-serif;
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+  margin-top: 3em;
+  font-size: 1.5em;
+}
+
+.col_1 {
+  padding: 1em;
+  float: left;
+}
+
+.col_2 {
+  padding: 1em;
+  float: right;
+  margin-top: -3em;
+}
+
+.title_tape {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  margin-top: 2em;
+  font-family: Ubuntu Mono, sans-serif;
+  font-size: 2em;
+}
